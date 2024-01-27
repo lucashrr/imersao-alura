@@ -102,10 +102,10 @@
             </nav>
 
             <div class="playlist-container">
-                <div class="result-playlists">
+                <div id="result-playlists">
                     <div class="playlist">
-                        <h1 class="title-text">Boa Tarde</h1>
-                        <h2 class="subtitle-text">Navegar por todas as seções</h2>
+                        <h1 id="greeting">Boa Tarde</h1>
+                        <h2 class="session">Navegar por todas as seções</h2>
                     </div>
 
                     <div class="offer__scroll-container">
@@ -233,6 +233,26 @@
                         </div>
                     </div>
                 </div>
+
+                <div id="result-artist" class="hidden">
+                  <div class="grid-container">
+                      <div class="artist-card" id="">
+                        <div class="card-img">
+                          <img id="artist-img" class="artist-img" />
+                          <div class="play">
+                            <span class="fa fa-solid fa-play"></span>
+                          </div>
+                        </div>
+                        <div class="card-text">
+                          <a title="Foo Fighters" class="vst" href=""></a>
+                          <span class="artist-name" id="artist-name"></span>
+                          <span class="artist-categorie">Artista</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </main>
@@ -246,8 +266,6 @@
             <button type="button">Inscreva-se grátis</button>
         </div>
     </footer>
-
-    <script type="text-javascript" src="script.js"></script>
-    <script src="search.js"></script>
+    <script type="text/javascript" src="search.js"></script>
 </body>
 </html>
